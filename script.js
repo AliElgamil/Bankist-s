@@ -10,8 +10,6 @@ const btnsOpenModal = document.querySelectorAll('.btn--show-modal');
 const btnScrollTO = document.querySelector('.btn--scroll-to');
 const section1 = document.querySelector('#section--1');
 
-alert('hello');
-
 const openModal = function (e) {
   e.preventDefault();
   modal.classList.remove('hidden');
